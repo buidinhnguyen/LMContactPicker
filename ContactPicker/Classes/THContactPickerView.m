@@ -57,7 +57,7 @@
     self.contactKeys = [NSMutableArray array];
     
     // Create a contact bubble to determine the height of a line
-    THContactBubble *contactBubble = [[THContactBubble alloc] initWithName:@"Sample"];
+    THContactBubble *contactBubble = [[THContactBubble alloc] initWithName:@"MyContact"];
     self.lineHeight = contactBubble.frame.size.height + 2 * kVerticalPadding;
     
     self.scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];

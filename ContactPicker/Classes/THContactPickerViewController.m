@@ -22,7 +22,7 @@
     if (self) {
         // Custom initialization
         self.title = @"Contacts";
-        self.contacts = [NSArray array];
+        self.contacts = [NSArray arrayWithObjects:@"Nguyen Bui", @"Left Mobile Support", @"Steve", @"Nigel", nil];
         self.selectedContacts = [NSMutableArray array];
         self.filteredContacts = self.contacts;
     }
