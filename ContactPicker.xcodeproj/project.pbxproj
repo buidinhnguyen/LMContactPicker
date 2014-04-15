@@ -21,8 +21,8 @@
 		7746EC7E18FD372000A4FCEA /* THBubbleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746EC7718FD372000A4FCEA /* THBubbleColor.m */; };
 		7746EC7F18FD372000A4FCEA /* THContactBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746EC7918FD372000A4FCEA /* THContactBubble.m */; };
 		7746EC8018FD372000A4FCEA /* THContactPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746EC7B18FD372000A4FCEA /* THContactPickerView.m */; };
-		7746EC8118FD372000A4FCEA /* THContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746EC7D18FD372000A4FCEA /* THContactPickerViewController.m */; };
 		7746EC8318FD374300A4FCEA /* LMContactPicker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7746EC8218FD374200A4FCEA /* LMContactPicker.podspec */; };
+		7746EC8618FD3EC000A4FCEA /* THContactPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7746EC8518FD3EC000A4FCEA /* THContactPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +47,9 @@
 		7746EC7918FD372000A4FCEA /* THContactBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactBubble.m; sourceTree = "<group>"; };
 		7746EC7A18FD372000A4FCEA /* THContactPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactPickerView.h; sourceTree = "<group>"; };
 		7746EC7B18FD372000A4FCEA /* THContactPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactPickerView.m; sourceTree = "<group>"; };
-		7746EC7C18FD372000A4FCEA /* THContactPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactPickerViewController.h; sourceTree = "<group>"; };
-		7746EC7D18FD372000A4FCEA /* THContactPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactPickerViewController.m; sourceTree = "<group>"; };
 		7746EC8218FD374200A4FCEA /* LMContactPicker.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LMContactPicker.podspec; sourceTree = SOURCE_ROOT; };
+		7746EC8418FD3EC000A4FCEA /* THContactPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactPickerViewController.h; sourceTree = "<group>"; };
+		7746EC8518FD3EC000A4FCEA /* THContactPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,8 @@
 		29A71BED1644824F005286F1 /* ContactPicker */ = {
 			isa = PBXGroup;
 			children = (
+				7746EC8418FD3EC000A4FCEA /* THContactPickerViewController.h */,
+				7746EC8518FD3EC000A4FCEA /* THContactPickerViewController.m */,
 				7746EC8218FD374200A4FCEA /* LMContactPicker.podspec */,
 				7746EC7518FD372000A4FCEA /* Classes */,
 				29A71BF616448250005286F1 /* AppDelegate.h */,
@@ -131,8 +133,6 @@
 				7746EC7918FD372000A4FCEA /* THContactBubble.m */,
 				7746EC7A18FD372000A4FCEA /* THContactPickerView.h */,
 				7746EC7B18FD372000A4FCEA /* THContactPickerView.m */,
-				7746EC7C18FD372000A4FCEA /* THContactPickerViewController.h */,
-				7746EC7D18FD372000A4FCEA /* THContactPickerViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				7746EC7F18FD372000A4FCEA /* THContactBubble.m in Sources */,
 				7746EC8018FD372000A4FCEA /* THContactPickerView.m in Sources */,
 				29A71BF416448250005286F1 /* main.m in Sources */,
-				7746EC8118FD372000A4FCEA /* THContactPickerViewController.m in Sources */,
+				7746EC8618FD3EC000A4FCEA /* THContactPickerViewController.m in Sources */,
 				29A71BF816448250005286F1 /* AppDelegate.m in Sources */,
 				7746EC7E18FD372000A4FCEA /* THBubbleColor.m in Sources */,
 			);
